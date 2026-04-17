@@ -1,0 +1,16 @@
+import java.util.LinkedList;
+
+public class Ex {
+
+	public static void main(String[] args) {
+		LinkedList<String> ll = new LinkedList<>();
+		ll.add("JAVA");
+		ll.add("Betu");
+		ll.add("Khushi");
+		ll.add("Soham");
+		System.out.println(ll);
+		System.out.println(ll.get(2));
+	
+	}
+
+}
