@@ -1,0 +1,42 @@
+package inheritance;
+
+public class A {
+	public void showA()
+	{
+		System.out.println("Inside class A showsA method...");
+	}
+}
+
+
+package inheritance;
+
+public class B extends A{
+	public void showB()
+	{
+		System.out.println("Inside class B showsB method ... ");
+	}
+}
+
+
+package inheritance;
+
+public class C extends B {
+	public void showC()
+	{
+		System.out.println("Inside class C showsC method...");
+	}
+}
+
+
+package inheritance;
+
+public class inheritance_main {
+	public static void main(String[] args)
+	{
+		C b1 = new C();
+		b1.showA();
+		b1.showB();
+		b1.showC();
+	}
+}
+
